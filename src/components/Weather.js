@@ -9,7 +9,7 @@ const Weather = props => {
                     Weather: {props.weather} ({props.description}) <br/>
                     Place: {props.city}, {props.country} <br/>
                     Temperature: {props.temperature}°С <br/>
-                    Wind: {props.wind} kmh <br/>
+                    Wind: {props.wind} mph <br/>
                 </div>
             } 
             { props.error &&
