@@ -11,10 +11,11 @@ const Weather = props => {
                     Temperature: {props.temperature}°С <br/>
                     Wind: {props.wind} mph <br/>
                 </div>
+
+                { props.error &&
+                    <p>{props.error}</p>
+                }
             } 
-            { props.error &&
-                <p>{props.error}</p>
-            }
                 
         </div>
     );
